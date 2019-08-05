@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="prueba programa usando bootstrap" >
+    <meta name="keywords" content="layout, aprender, dropdown"  >
+    <title> run run </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="">
+
+    <style>
+img {width: 100%; max-height: 100%}
+.contenedor { width: 100%; padding-top: 0%; padding-right: 10%; padding-left: 10%; margin-right: auto; margin-left: auto}
+
+/* ------header------------------------------------------- */
+.navegar { margin-left: 3.5%;padding-right: 1.5%; padding-left:  }
+.navegar:hover {background: rgb(202, 199, 199)}
+.navegar3:hover {background: rgb(202, 199, 199)}
+.navegar1 { padding-right: 0,5%; padding-left:0.5%; margin-left: 28%;width: 2.5%; height: 1.5% }
+.navegar2 { padding-right: 0,5%; padding-left:0.5%; margin-left: ;width: 2.5%; height: 1.5% }
+.navegar3 { margin-left: 1%;padding-right: 1.1%; padding-left:  }
+.letra1 {color: rgba(255, 166, 0, 0.76); font-size: 1.2em}
+.letra2 {color: white; font-size: 0.8em}
+.letra3 {color: black; font-size: 1.1em}
+.contenedor9 {padding-top: 0%; padding-right: 2%; padding-left: 2%; margin-right: auto; margin-left: auto}
+.contenedor13 {background: rgb(7, 7, 136); padding-left:3% ; padding-bottom: 0%; padding-top: 0.3% }
+.contenedor27 {width: 80% }
+
+/* ------parte 1---------------------------------------- */
+
+.raya {color: rgba(19, 19, 145, 0.596);  }
+.marco {position: relative;}
+.letrab {color:white}
+.textoint {position: absolute;top: 70%;left: 10%;width: 80%;font-size: 1.2em}
+.textoint1 {position: absolute;top: 15%;left: 10%;width:23% ;}
+.textoint2 {position: absolute;top: 15%;left: 36%;width: 23%;}
+.textoint3 {position: absolute;top: 20%;left: 36%;width: 23%;}
+.textoint4 {position: absolute;top: 10%;left: 10%;width:33% ;}
+.textoint5 {position: absolute;top: 20%;left: 10%;width: 25%;}
+.textoint6 {position: absolute;top: 80%;left: 10%;width: 80%;font-size: 1.2em}  
+.textoint7 {position: absolute;top: 8%;left: 5%;width: 20%; padding-right: 5%}
+.textoint8 {position: absolute;top: 8%;left: 17%;width: 20%; padding-left: 5%;padding-right: 5%}
+.textoint9 {position: absolute;top: 8%;left: 29%;width: 20%; padding-left: 5%}
+.contenedor1 {background: rgb(247, 241, 241) ; padding-top: 2%; padding-right: 2%; padding-left: 2%; margin-right: auto;margin-left: auto}
+.contenedor2 {padding-top: 10%; padding-bottom:0%; margin-right: auto; margin-left: automax-height: 100%; height: 5.5rem}
+.contenedor3 {line-height: 1.3em ; color:black; font-size: 1.2em; padding-top: 1%; padding-bottom:0%; margin: 0}
+.contenedor4 {height: ; color:black; padding-top: ;padding-bottom:0%; margin-bottom: 4%}
+.contenedor5 {padding-bottom:2%; margin-right: auto; margin-left: auto; max-height: 100%; height: 400px}
+.contenedor6 {padding-top: 3%; margin-right: auto; margin-left: auto; max-height: 100%; height: 280px}
+.contenedor7 {padding-right: %; padding-bottom:2%; margin-right: auto; margin-left: auto; max-height: 100%; height: 400px}
+.noticia {color: white; background: rgb(255, 174, 0); width: 100%; padding: 0% 0% 0% 5%; font-size:0.9em}
+
+/* ------parte 2---------------------------------------- */
+.contenedor10 { width: ; padding-bottom:2%; margin-right: auto; margin-left: auto; max-height: 100%;height: 400px}
+
+/* ------parte 3---------------------------------------- */
+.contenedor25 {height: 5rem}
+.contenedor11 {width: 100%; padding-bottom:2%; height: 80px}
+.contenedor12 {width:100% ;color:black; font-size: 1.2em; padding-bottom:2%; line-height: 1.3em }
+.contenedor14 { padding-left: 15% ; margin-top: 0%; padding-top: 0%; width: 85% }
+.contenedor26 {width: 100% }
+
+/* ------parte 4---------------------------------------- */
+.contenedor15 { color:white; padding-left: 5% ; padding-right: 5%; width: 35% ; padding-top: 2% ; padding-bottom: 2% ; background:rgb(255, 174, 0) }
+
+/* ------parte 5---------------------------------------- */
+.contenedor8 {height: 20rem; width: 20rem}
+.contenedor16 {width: 20% }
+.contenedor17 {padding-left: 0%; margin-left: 0%; padding-right: 0% }
+.letra4 {font-size: 1.3em; font-weight: bold}
+.contenedor18{ margin-right: 1.7%; width: 100%}
+/* ------parte 6---------------------------------------- */
+.contenedor19 {width: 96%; height: 20rem }
+.textoint10 {position: absolute;top: 8%;left: 5%;width: 37%; padding-left: 5%}
+.textoint11 {position: absolute;top: 8%;left: 38%;width: 32%; padding-left: 5%}
+/* ------parte 9---------------------------------------- */
+.contenedor20 {background: rgb(14, 14, 83); height: 90rem }
+.contenedor21 {padding-top:2% ;padding-right:2% ;padding-left:2% }
+.contenedor22 {padding-top:2% ;padding-right:2% ;padding-left:2%; height: 23rem }
+.contenedor23 {padding-top:2% ;padding-right:2% ;padding-left:2%; height: 23rem; width: 72% }
+.letra5 {font-size: 1.8em;color: orange; font-weight: bold}
+.letra6 {color: white}
+
+/* ------footer---------------------------------------- */
+
+.contenedor24 {background: black; height: 4rem }
+.letra7 {color:white}
+.pie1 {padding-left: 10%; padding-top: 0.7%}
+.pie2 {padding-left: 0%;padding-top: 1%}
+.pie3 {padding-left: 3%;padding-top: 1%}
+.pie4 {padding-right: 0,5%; padding-left:0.5%; padding-top: 0.7%;width: 2.5%; height: 2%; margin-left: 20%}
+.pie5 {padding-right: 0,5%; padding-left:0.5%; padding-top: 0.7%;width: 2.5%; height: 2%; margin-left: 0.9%}
+.pie6 {color: white; padding-right: %; padding-left:%; padding-top: 0.7%;width: ; height:; margin-left: 20%}
+
+
+
+
+    
+    </style>
+
+</head>
+
+
+
+<body>
+<!--------header--------------------------------------------------------------------------------------------------->
+    <header>
+        <div class="contenedor">
+            <div class=" contenedor13">
+                <p class="letra1">Lo ultimo  
+                    <a href="https://runrun.es/noticias/385671/nuevos-negocios-surgen-de-la-crisis-en-venezuela/" class="letra2">31 julio,2019 Nuevos negocios surgen de la crisis en Venezuela ( Noticias)</a>   
+                </p>            
+            </div>
+            <div class="contenedor9">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="contenedor27" src="https://runrun.es/wp-content/uploads/2018/09/runrun.png" alt="">
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-7">
+                        <img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/1477880029108349248">
+                    </div>
+                </div>                   
+            </div>
+            <hr>
+            <nav>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group navegar"> <a href="https://runrun.es/" class="letra3">Inicio</a> </li>
+                    <li class="list-group navegar3"> <a href="https://runrun.es/noticias/" class="letra3">Noticias</a>  </li>
+                    <li class="list-group navegar3"> <a href="https://runrun.es/runrunes-de-bocaranda/" class="letra3">Runrunes de Bocaranda</a>  </li>
+                    <li class="list-group navegar3"> <a href="https://runrun.es/opinion/" class="letra3">Opinion</a> </li>        
+                    <li class="dropdown list-group navegar">
+                        <span class="letra3" data-toggle="dropdown" data-hover="dropdown ">Especiales  </span>   
+                        <ul class="dropdown-menu">
+                            <li class="navegar3"><a href="https://runrun.es/monitor-de-victimas/" class="letra3">Monitor de victimas</a></li>
+                            <li class="navegar3"><a href="https://runrun.es/el-megafono/" class="letra3">El Megafono</a></li>
+                        </ul>
+                     </li>
+                    <li class="list-group navegar3"> <a href="https://runrun.es/investigacion/" class="letra3">RRPlus</a> </li>
+                    <li class="list-group navegar1"> <a href="https://www.facebook.com/Runrunes"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\facebook.jpg" alt=""> </a>  </li>
+                    <li class="list-group navegar2"> <a href="https://twitter.com/runrunesweb"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\tweeter.jpg" alt=""> </a> </li>
+                    <li class="list-group navegar2"> <a href="https://www.instagram.com/runrunestv/?hl=es"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\instagram.jpg" alt=""> </a> </li>
+                    <li class="list-group navegar2"> <a href="https://t.me/runrunes"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\telegram.jpg" alt=""> </a> </li>
+                    <li class="list-group navegar2"> <a href="https://www.youtube.com/user/RunrunEstudio"></a> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\youtube.jpg" alt=""> </a> </li>
+                    <li class="list-group navegar2"> <a href="https://runrun.es/"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\search.jpg" alt=""> </a> </li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
+
+
+<!----------------------------------------------------------------------------------------------------------->  
+    <div class="contenedor">
+<!---parte 1------------------------------------------------------------------------------------------------->
+        <div class="contenedor1">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h3> Lo Mas Reciente</h3>
+                            <h3 class="raya"> _______</h3>
+                        </div>
+                    <div class="col-md-4">
+                        <h3>RR.ES PLUS</h3>
+                        <h3 class="raya"> ______ </h3>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3>Especiales</h3>
+                     <h3 class="raya"> ______ </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-8">               
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner contenedor5">
+                                    <div class="carousel-item active">
+                                        <div class="" id="box-search">
+                                            <div class="marco text-center">
+                                                <a href="https://runrun.es/opinion/385621/al-maestro-cruz-diez-por-laureano-marquez/">
+                                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto12.jpg" class="d-block w-100 contenedor7" alt="...">
+                                                    <div class="textoint"> 
+                                                        <p class="letrab">Al maestro Cruz-Diez, por Laureano Marquez</p>
+                                                    </div>
+                                                </a>
+                                            </div>  
+                                            <div class="textoint7">
+                                                <a href="https://runrun.es/category/megafono/">
+                                                    <p class="noticia"> MEGAFONO</p>
+                                                </a>   
+                                            </div>                
+                                            <div class="textoint8">
+                                                <a href="https://runrun.es/category/noticias/">
+                                                    <p class="noticia"> NOTICIAS</p>
+                                                </a>
+                                            </div>
+                                            <div class="textoint9">
+                                                <a href="https://runrun.es/category/top-5/">
+                                                    <p class="noticia">TOP 5</p>
+                                                </a>
+                                            </div>
+                                        </div>       
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="" id="box-search">
+                                            <div class="marco text-center">
+                                                <a href="https://runrun.es/noticias/385444/venezuela-el-vertiginoso-avance-del-hambre/">
+                                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto11.jpg" class="d-block w-100 contenedor7" alt="...">  
+                                                    <div class="textoint"> 
+                                                        <p class="letrab">Calabozos albergan hasta cinco veces mas de su capacidad</p>
+                                                    </div>
+                                                </a>
+                                            </div>  
+                                            <div class="textoint7">
+                                                <a href="https://runrun.es/category/megafono/">
+                                                    <p class="noticia"> MEGAFONO</p>
+                                                 </a>   
+                                            </div>                
+                                            <div class="textoint8">
+                                                <a href="https://runrun.es/category/noticias/">
+                                                    <p class="noticia"> NOTICIAS</p>
+                                                </a>
+                                            </div>
+                                            <div class="textoint9">
+                                                <a href="https://runrun.es/category/top-5/">
+                                                    <p class="noticia">TOP 5</p>
+                                                </a>
+                                            </div>
+                                        </div>                                
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="" id="box-search">
+                                            <div class="marco text-center">
+                                                <a href="https://runrun.es/noticias/385628/el-mananero-de-hoy-31jul-las-8-noticias-que-debes-saber/"> 
+                                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto13.jpg" class="d-block w-100 contenedor7" alt="">
+                                                    <div class="textoint"> 
+                                                        <p class="letrab">El Mañanero de hoy #31Jul: Las 8 noticias que debes saber</p>
+                                                    </div>
+                                                </a>
+                                            </div>  
+                                            <div class="textoint7">
+                                                <a href="https://runrun.es/category/megafono/">
+                                                    <p class="noticia"> MEGAFONO</p>
+                                                </a>   
+                                            </div>                
+                                            <div class="textoint8">
+                                                <a href="https://runrun.es/category/noticias/">
+                                                    <p class="noticia"> NOTICIAS</p>
+                                                </a>
+                                            </div>
+                                            <div class="textoint9">
+                                                <a href="https://runrun.es/category/top-5/">
+                                                    <p class="noticia">TOP 5</p>
+                                                </a>
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="" id="box-search">
+                                <div class="marco text-center">
+                                    <a href="https://runrun.es/rr-es-plus/384871/intentamos-usar-el-telefono-de-emergencia-que-esta-en-el-anden-del-metro-pero-no-tenia-tono/">
+                                        <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto3.jpg" alt="" class="img-responsive contenedor5">
+                                        <div class="textoint6">                              
+                                            <p class="letrab">Intentamos usar el telefono de emergencia que...</p>
+                                        </div>
+                                    </a>
+                                    <div class="textoint4">
+                                        <a href="https://runrun.es/category/investigacion/">
+                                            <p class="noticia">INVESTIGACION</p>
+                                        </a>
+                                    </div>
+                                    <div class="textoint5">
+                                        <a href="https://runrun.es/category/rr-es-plus/">
+                                            <p class="noticia">RR. ES PLUS</p>
+                                        </a>
+                                    </div>
+                                    <div class="textoint3">
+                                        <a href="https://runrun.es/category/top-5/">
+                                            <p class="noticia">TOP 5</p>
+                                        </a>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-6 ">         
+                                    <div  id="box-search">                
+                                        <div class="marco text-center">
+                                            <a target="_blank" href="https://runrun.es/noticias/385555/los-runrunes-de-bocaranda-de-hoy-29-07-2019-alto-decrece-su-influencia/">
+                                                <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto1.jpg" alt="" class="img-responsive contenedor6">
+                                                <div class="textoint">                              
+                                                    <p class="letrab">Los #Runrunes de Bocaranda de hoy 29.07.2019: Alto: Decrec</p>
+                                                </div>
+                                            </a>
+                                            <div class="textoint1">
+                                                <a href="https://runrun.es/category/noticias/">
+                                                    <p class="noticia">NOTICIAS</p>
+                                                </a>
+                                            </div>
+                                            <div class="textoint2">
+                                                <a href="https://runrun.es/category/top-5/">
+                                                    <p class="noticia">TOP 5</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+        
+                                <div class="col-md-6 ">
+                                    <div  id="box-search">
+                                        <div class="marco text-center">
+                                            <a target="_blank" href="https://runrun.es/opinion/385532/informe-otalvora-diplomacia-global-se-mueve-por-crisis-venezolana/">
+                                                <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto2.jpg" alt="" class="img-responsive contenedor6">
+                                                <div class="textoint">                              
+                                                    <p class="letrab">Informe Otalvora: Diplomacia global se mueve por crisis</p>
+                                                </div>
+                                            </a>
+                                            <div class="textoint1">
+                                                <a href="https://runrun.es/category/noticias/">
+                                                    <p class="noticia">NOTICIAS</p>
+                                                </a>
+                                            </div>
+                                            <div class="textoint2">
+                                                <a href="https://runrun.es/category/top-5/">
+                                                    <p class="noticia">TOP 5</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">                        
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="https://runrun.es/noticias/383553/al-traje-de-michelle-bachelet-se-le-ven-las-costuras/">
+                                            <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto4.jpg" class="contenedor2" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <a href="https://runrun.es/noticias/383553/al-traje-de-michelle-bachelet-se-le-ven-las-costuras/">
+                                            <p class="contenedor3">Al traje de Michelle Bachelet se le ven las costuras</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="https://runrun.es/investigacion/383291/yo-compre-un-petro-la-criptomoneda-de-la-tercera-edad/">
+                                            <img src=".\foto5.jpg" class="contenedor2" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <a href="https://runrun.es/investigacion/383291/yo-compre-un-petro-la-criptomoneda-de-la-tercera-edad/">
+                                            <p class="contenedor3">Yo compre un Petro, la criptomoneda de la tercera edad</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="https://runrun.es/rr-es-plus/385493/el-foro-de-sao-paulo-cuatro-dias-de-nostalgia-chavista-en-tiempos-de-emergencia-humanitaria/">
+                                            <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto6.jpg" class="contenedor2" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <a href="https://runrun.es/rr-es-plus/385493/el-foro-de-sao-paulo-cuatro-dias-de-nostalgia-chavista-en-tiempos-de-emergencia-humanitaria/">
+                                            <p class="contenedor3">El Foro de Sao Paulo: cuatro dias de nostalgia chavista</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>         
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <a target="_blank" href="https://www.multinacional.com.ve/Multinacional/">
+                            <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto26.jpg" alt="" class="contenedor4">
+                        </a>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a target="_blank" href="https://runrun.es/especiales/fuga_oro/"> 
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto7.jpg" class="contenedor2" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <a target="_blank" href="https://runrun.es/especiales/fuga_oro/">
+                                    <p class="contenedor3">Fuga del oro venezolano: la ruta de un saqueo oficial</p>
+                                </a>
+                             </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a target="_blank" href="https://misionvivienda.runrun.es/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto9.jpg" class="contenedor2" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <a target="_blank" href="https://misionvivienda.runrun.es/">
+                                    <p class="contenedor3">Mision vivienda: plataforma de exclusion en Caracas</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a target="_blank" href="http://hambrometro.com/">
+                                   <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto9.jpg" class="contenedor2" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                 <a target="_blank" href="http://hambrometro.com/">
+                                    <p class="contenedor3">Hambrometro</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a target="_blank" href="https://www.connectas.org/especiales/olp/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto10.jpg" class="contenedor2" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <a target="_blank" href="https://www.connectas.org/especiales/olp/">
+                                    <p class="contenedor3">OLP: La mascara del terror oficial en Venezuela</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <br>
+<!---parte 2------------------------------------------------------------------------------------------------->
+    <div class="contenedor9">
+        <div class="row">
+            <div class="col-md-4">
+                <h3> Noticias</h3>
+                <h3 class="raya"> _______</h3>
+            </div>
+            <div class="col-md-4">
+                <h3> Runrunes de bocaranda</h3>
+                <h3 class="raya"> _______</h3>
+            </div>
+            <div class="col-md-4">
+                <h3> Opinion</h3>
+                <h3 class="raya"> _______</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                    <div  id="box-search">                
+                            <div class="marco text-center">
+                                <a href="https://runrun.es/noticias/385636/video-diputado-denuncia-que-grupos-armados-se-enfrentan-en-frontera-colombo-venezolana/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto27.jpg" alt="" class="img-responsive contenedor10">
+                                    <div class="textoint">                              
+                                        <p class="letrab">[VIDEO] Diputado denuncia que grupos armados se enfrentan en frontera colombo-venezolana</p>
+                                    </div>
+                                </a>
+                                <div class="textoint1">
+                                    <a href="https://runrun.es/category/noticias/">
+                                        <p class="noticia">NOTICIAS</p>
+                                    </a>
+                                </div>
+                                <div class="textoint2">
+                                    <a href="https://runrun.es/category/top-5/">
+                                        <p class="noticia">TOP 5</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+            </div>
+            <div class="col-md-4">
+                    <div  id="box-search">                
+                            <div class="marco text-center">
+                                <a href="https://runrun.es/runrunes-de-bocaranda/runrunes/385556/los-runrunes-de-bocaranda-de-hoy-29-07-2019-medio-maduro-elucubra/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto28.jpg" alt="" class="img-responsive contenedor10">
+                                    <div class="textoint">                              
+                                        <p class="letrab">Los #Runrunes de Bocaranda de hoy 29.07.2019: Medio: Maduro elucubra</p>
+                                    </div>
+                                </a>
+                                <div class="textoint1">
+                                    <a href="https://runrun.es/category/noticias/">
+                                        <p class="noticia">NOTICIAS</p>
+                                    </a>
+                                </div>
+                                <div class="textoint2">
+                                    <a href="https://runrun.es/category/top-5/">
+                                        <p class="noticia">TOP 5</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+    
+            </div>
+            <div class="col-md-4">
+                    <div  id="box-search">                
+                            <div class="marco text-center">
+                                <a href="https://runrun.es/opinion/385603/absurdos-digitales-enganos-reales-por-ramon-hernandez/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto29.jpg" alt="" class="img-responsive contenedor10">
+                                    <div class="textoint">                              
+                                        <p class="letrab">Absurdos digitales, engaños reales. Por Ramon Hernandez</p>
+                                    </div>
+                                </a>
+                                <div class="textoint1">
+                                    <a href="https://runrun.es/category/noticias/">
+                                        <p class="noticia">NOTICIAS</p>
+                                    </a>
+                                </div>
+                                <div class="textoint2">
+                                    <a href="https://runrun.es/category/top-5/">
+                                        <p class="noticia">TOP 5</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+    
+            </div>
+        </div>
+    
+<!---parte 3------------------------------------------------------------------------------------------------->       
+        <div class="row">               
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row contenedor25">
+                            <div class="col-md-3">
+                                <a href="https://runrun.es/noticias/385671/nuevos-negocios-surgen-de-la-crisis-en-venezuela/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto30.jpg" class="contenedor11" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="https://runrun.es/noticias/385671/nuevos-negocios-surgen-de-la-crisis-en-venezuela/">
+                                    <p class="contenedor12">Nuevos negocios surgen de la crisis en Venezuela</p>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row contenedor25">
+                            <div class="col-md-3">
+                                <a href="https://runrun.es/noticias/385682/concejal-machado-hoy-es-normal-que-en-el-zulia-las-subestaciones-electricas-estallen/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto32.jpg" class="contenedor11" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="https://runrun.es/noticias/385682/concejal-machado-hoy-es-normal-que-en-el-zulia-las-subestaciones-electricas-estallen/">
+                                    <p class="contenedor12">Concejal Machado: hoy es normal que en el Zulia las subestaciones electricas estallen</p>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row contenedor25">
+                            <div class="col-md-3">
+                                <a href="https://runrun.es/noticias/385697/cepal-estimo-que-economia-venezolana-se-contraera-23-en-2019/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto33.jpg" class="contenedor11" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="https://runrun.es/noticias/385697/cepal-estimo-que-economia-venezolana-se-contraera-23-en-2019/">
+                                    <p class="contenedor12">Cepal estimo retroceso en la economia venezolana de 23% para 2019</p>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row contenedor25">
+                            <div class="col-md-3">
+                                <a href="https://runrun.es/noticias/385669/comision-de-politica-interior-de-la-an-investigara-hechos-de-la-cota-905-y-citara-a-nestor-reverol/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto31.jpg" class="contenedor11" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="https://runrun.es/noticias/385669/comision-de-politica-interior-de-la-an-investigara-hechos-de-la-cota-905-y-citara-a-nestor-reverol/">
+                                    <p class="contenedor12">Comision de politica interior de la AN investigara hechos de la cota 905 y citara a Nestor Reverol</p>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row contenedor25">
+                            <div class="col-md-3">
+                                <a href="https://runrun.es/runrunes-de-bocaranda/runrunes/385556/los-runrunes-de-bocaranda-de-hoy-29-07-2019-medio-maduro-elucubra/">
+                                <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto34.jpg" class="contenedor11" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="https://runrun.es/runrunes-de-bocaranda/runrunes/385556/los-runrunes-de-bocaranda-de-hoy-29-07-2019-medio-maduro-elucubra/">
+                                    <p class="contenedor12">Los #Runrunes de Bocaranda de hoy 29.07.2019: MEDIO: Maduro elucubra</p>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row contenedor25">
+                            <div class="col-md-3">
+                                <a href="https://runrun.es/runrunes-de-bocaranda/runrunes/385557/los-runrunes-de-bocaranda-de-hoy-29-07-2019-bajo-la-otra-cara/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto35.jpg" class="contenedor11" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="https://runrun.es/runrunes-de-bocaranda/runrunes/385557/los-runrunes-de-bocaranda-de-hoy-29-07-2019-bajo-la-otra-cara/">
+                                    <p class="contenedor12">Los #Runrunes de Bocaranda de hoy 29.07.2019: BAJO: La otra cara</p>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row contenedor25">
+                            <div class="col-md-3">
+                                <a href="https://runrun.es/noticias/385084/los-runrunes-de-bocaranda-de-hoy-23-07-2019-alto-si-hay-real/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto36.jpg" class="contenedor11" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="https://runrun.es/noticias/385084/los-runrunes-de-bocaranda-de-hoy-23-07-2019-alto-si-hay-real/">
+                                    <p class="contenedor12">Los Runrunes de Bocaranda de hoy 23.07.2019: ALTO: Si hay real</p>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="row contenedor25">
+                            <div class="col-md-3">
+                                <a href="https://runrun.es/runrunes-de-bocaranda/runrunes/385111/los-runrunes-de-bocaranda-de-hoy-23-07-2019-medio-estado-forajido/">
+                                    <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto37.jpg" class="contenedor11" alt="...">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="https://runrun.es/runrunes-de-bocaranda/runrunes/385111/los-runrunes-de-bocaranda-de-hoy-23-07-2019-medio-estado-forajido/">
+                                    <p class="contenedor12">Los Runrunes de Bocaranda de hoy 23.07.2019: MEDIO: Estado Forajido?</p>
+                                </a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="https://runrun.es/opinion/385621/al-maestro-cruz-diez-por-laureano-marquez/">
+                    <p class="contenedor12">Al maestro Cruz Diez por Laureano Marquez</p>
+                </a>
+                <hr>
+                <a href="https://runrun.es/opinion/385603/absurdos-digitales-enganos-reales-por-ramon-hernandez/">
+                    <p class="contenedor12">Absurdos digitales, engaños reales. Por Ramon Hernandez</p>
+                </a>
+                <hr>
+                <img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content contenedor14" decoding="async" src="https://tpc.googlesyndication.com/simgad/15187683795885531324">
+        
+            </div>
+        </div>
+<!---parte 4-------------------------------------------------------------------------------------------------> 
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://runrun.es/noticias"> <p class="contenedor15">Mas noticias</p> </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://runrun.es/runrunes-de-bocaranda/"> <p class="contenedor15">Mas rurnrunes</p> </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://runrun.es/opinion/"> <p class="contenedor15">Mas opinion</p> </a>
+            </div>
+        </div>
+        <br>
+        <div class="col-md-7">
+            <a href="https://www.banesco.com/somos-banesco/biblioteca-digital-banesco/biblioteca-digital-banesco-2"> <img src="https://tpc.googlesyndication.com/simgad/6963978073044142882" alt=""></a>
+        </div>
+    
+<!---parte 5-------------------------------------------------------------------------------------------------->
+        <div class="row">
+        <div class="col-md-3">
+            <h3>Especiales</h3>
+            <h3 class="raya"> ______ </h3>
+        </div>
+        </div>
+    
+        <div class="row contenedor18">
+               
+                <div class="bd-example contenedor16">
+                    <div id="carouselExampleCaptions" >
+                        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="2000">
+                                    <a  target="_blank" href="https://misionvivienda.runrun.es/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto8.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Mision Vivienda: plataforma de exclusion en Caracas</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <a  target="_blank" href="http://hambrometro.com/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto9.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Hambrometro</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <a  target="_blank" href="https://www.connectas.org/especiales/olp/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto10.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">OLP: La mascara del terror oficial en Venezuela</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <a  target="_blank" href="https://runrun.es/especiales/fuga_oro/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto7.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Fuga del oro venezolano: la ruta de un saqueo oficial</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <a  target="_blank" href="https://runrun.es/rr-es-plus/385789/migracion-forzada-e-inseguridad-alimentaria-hacen-mas-vulnerables-a-los-venezolanos-ante-la-trata-de-personas/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto38.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Migracion forzada e inseguridad alimentaria</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <a  target="_blank" href="https://runrun.es/noticias/385830/calculan-que-en-colombia-ya-hay-mas-de-14-millones-de-venezolanos/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto39.jpg" class="d-block w-100" alt="...">
+                                         <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Calculan que en Colombia hay mas de 1,4 millones de venezolanos</p>
+                                        </div>
+                                    </a>
+                                </div>                               
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-example contenedor16">
+                    <div id="carouselExampleCaptions" >
+                        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="3000">
+                                    <a  target="_blank" href="http://hambrometro.com/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto9.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Hambrometro</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://www.connectas.org/especiales/olp/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto10.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">OLP: La mascara del terror oficial en Venezuela</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/especiales/fuga_oro/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto7.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Fuga del oro venezolano: la ruta de un saqueo oficial</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/rr-es-plus/385789/migracion-forzada-e-inseguridad-alimentaria-hacen-mas-vulnerables-a-los-venezolanos-ante-la-trata-de-personas/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto38.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Migracion forzada e inseguridad alimentaria</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/noticias/385830/calculan-que-en-colombia-ya-hay-mas-de-14-millones-de-venezolanos/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto39.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Calculan que en Colombia hay mas de 1,4 millones de venezolanos</p>
+                                        </div>
+                                    </a>
+                                </div>  
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://misionvivienda.runrun.es/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto8.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Mision Vivienda: plataforma de exclusion en Caracas</p>
+                                        </div>
+                                    </a>
+                                </div>                             
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-example contenedor16">
+                    <div id="carouselExampleCaptions" >
+                        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="3000">
+                                    <a  target="_blank" href="https://www.connectas.org/especiales/olp/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto10.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">OLP: La mascara del terror oficial en Venezuela</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/especiales/fuga_oro/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto7.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Fuga del oro venezolano: la ruta de un saqueo oficial</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/rr-es-plus/385789/migracion-forzada-e-inseguridad-alimentaria-hacen-mas-vulnerables-a-los-venezolanos-ante-la-trata-de-personas/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto38.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Migracion forzada e inseguridad alimentaria</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/noticias/385830/calculan-que-en-colombia-ya-hay-mas-de-14-millones-de-venezolanos/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto39.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Calculan que en Colombia hay mas de 1,4 millones de venezolanos</p>
+                                        </div>
+                                    </a>
+                                </div>  
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://misionvivienda.runrun.es/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto8.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Mision Vivienda: plataforma de exclusion en Caracas</p>
+                                        </div>
+                                    </a>
+                                </div>               
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/noticias/385830/calculan-que-en-colombia-ya-hay-mas-de-14-millones-de-venezolanos/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto39.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Calculan que en Colombia hay mas de 1,4 millones de venezolanos</p>
+                                        </div>
+                                    </a>
+                                </div>                               
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-example contenedor16">
+                    <div id="carouselExampleCaptions" >
+                        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/especiales/fuga_oro/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto7.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Fuga del oro venezolano: la ruta de un saqueo oficial</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/rr-es-plus/385789/migracion-forzada-e-inseguridad-alimentaria-hacen-mas-vulnerables-a-los-venezolanos-ante-la-trata-de-personas/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto38.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Migracion forzada e inseguridad alimentaria</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/noticias/385830/calculan-que-en-colombia-ya-hay-mas-de-14-millones-de-venezolanos/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto39.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Calculan que en Colombia hay mas de 1,4 millones de venezolanos</p>
+                                        </div>
+                                    </a>
+                                </div>  
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://misionvivienda.runrun.es/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto8.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Mision Vivienda: plataforma de exclusion en Caracas</p>
+                                        </div>
+                                    </a>
+                                </div>               
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/noticias/385830/calculan-que-en-colombia-ya-hay-mas-de-14-millones-de-venezolanos/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto39.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Calculan que en Colombia hay mas de 1,4 millones de venezolanos</p>
+                                        </div>
+                                    </a>
+                                </div>        
+                                <div class="carousel-item" data-interval="3000">
+                                        <a  target="_blank" href="https://www.connectas.org/especiales/olp/">
+                                            <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto10.jpg" class="d-block w-100" alt="...">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <p class="letra4">OLP: La mascara del terror oficial en Venezuela</p>
+                                            </div>
+                                        </a>
+                                </div>                             
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bd-example contenedor16">
+                    <div id="carouselExampleCaptions" >
+                        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/rr-es-plus/385789/migracion-forzada-e-inseguridad-alimentaria-hacen-mas-vulnerables-a-los-venezolanos-ante-la-trata-de-personas/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto38.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Migracion forzada e inseguridad alimentaria</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/noticias/385830/calculan-que-en-colombia-ya-hay-mas-de-14-millones-de-venezolanos/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto39.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Calculan que en Colombia hay mas de 1,4 millones de venezolanos</p>
+                                        </div>
+                                    </a>
+                                </div>  
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://misionvivienda.runrun.es/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto8.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Mision Vivienda: plataforma de exclusion en Caracas</p>
+                                        </div>
+                                    </a>
+                                </div>               
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/noticias/385830/calculan-que-en-colombia-ya-hay-mas-de-14-millones-de-venezolanos/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto39.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4" >Calculan que en Colombia hay mas de 1,4 millones de venezolanos</p>
+                                        </div>
+                                    </a>
+                                </div>        
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://www.connectas.org/especiales/olp/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto10.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">OLP: La mascara del terror oficial en Venezuela</p>
+                                        </div>
+                                    </a>
+                                    </div>                 
+                                <div class="carousel-item" data-interval="3000">
+                                    <a  target="_blank" href="https://runrun.es/especiales/fuga_oro/">
+                                        <img class="contenedor8" src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto7.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="letra4">Fuga del oro venezolano: la ruta de un saqueo oficial</p>
+                                        </div>
+                                    </a>
+                                </div>                              
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div> 
+    </div>
+    
+    
+    
+
+        <br><br>
+<!---parte 6-------------------------------------------------------------------------------------------------->
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-7">
+            <a href="https://www.totalchef.com.ve/">
+                <img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/1549310994962428498">
+            </a>
+        </div>
+    </div>
+<!----parte 7-------------------------------------------------------------------------------------------------->
+   
+       <div class="col-md-3">
+        <h3>Multimedia</h3>
+        <h3 class="raya"> ______ </h3>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+            <a target="_blank" href="https://www.banesco.com/somos-banesco/biblioteca-digital-banesco/biblioteca-digital-banesco-2">
+                <img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/4810418792844970828">
+                
+            </div>
+            <div class="col-md-3 ">         
+            <div  id="box-search">                
+                <div class="marco text-center">
+                    <a href="https://runrun.es/investigacion/380135/entre-los-bloqueos-y-los-apagones-los-venezolanos-estan-practicamente-desconectados/">
+                        <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto40.jpg" alt="" class="img-responsive contenedor19">
+                        <div class="textoint">                              
+                            <p class="letrab">Entre los bloqueos y los apagones, los venezolanos estan practicamente desconectados</p>
+                        </div>
+                    </a>
+                    <div class="textoint10">
+                        <a href="https://runrun.es/category/investigacion/">
+                            <p class="noticia">INVESTIGACION</p>
+                        </a>
+                    </div>
+                    <div class="textoint11">
+                        <a href="https://runrun.es/category/multimedia/">
+                            <p class="noticia">MULTIMEDIA</p>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+            </div>
+            <div class="col-md-3 ">         
+                <div  id="box-search">                
+                    <div class="marco text-center">
+                        <a href="https://runrun.es/rr-es-plus/371865/protestas-de-2019-represion-en-manifestaciones-nocturnas-dejan-mas-muertos-en-menos-dias/">
+                            <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto42.jpg" alt="" class="img-responsive contenedor19">
+                            <div class="textoint">                              
+                                <p class="letrab">Protestas de 2019: Represion en manifestaciones nocturnas dejan mas muertos en menos...</p>
+                            </div>
+                        </a>
+                        <div class="textoint10">
+                            <a href="https://runrun.es/category/investigacion/">
+                                <p class="noticia">INVESTIGACION</p>
+                            </a>
+                        </div>
+                        <div class="textoint11">
+                            <a href="https://runrun.es/category/multimedia/">
+                                <p class="noticia">MULTIMEDIA</p>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-3">
+            
+        <a target="_blank" href="https://www.multinacional.com.ve/Multinacional/">
+        <img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/5124739856220449752">
+        
+      </a>
+      </div>
+        </div>
+        <br>
+<!--------parte 8--------------------------------------------------------------------------------------------->
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-7">
+                <a href="https://www.totalchef.com.ve/">
+                <img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/58958471388615713">
+                </a>
+            </div>
+        </div>
+        <br>
+<!--------parte 9--------------------------------------------------------------------------------------------->        
+    <div class="contenedor20">
+        <div class="contenedor21">
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="letra5">Ultimos Post</p>
+            <br>
+                        <div class="row">
+                <div class="col-md-3">
+                    <a href="https://runrun.es/noticias/385851/juan-guaido-desde-guarico-la-democracia-no-es-un-regalo-siempre-va-a-estar-en-juego/">
+                        <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto43.jpg" class="contenedor11" alt="...">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <a href="https://runrun.es/noticias/385851/juan-guaido-desde-guarico-la-democracia-no-es-un-regalo-siempre-va-a-estar-en-juego/">
+                        <p class="letra6">Juan Guaido desde Guarico: La democracia no es un regalo, siempre va estar en juego</p>
+                    </a>
+                </div>
+                        </div>
+            <br>
+                        <div class="row">
+                    <div class="col-md-3">
+                        <a href="https://runrun.es/noticias/385846/las-noticias-economicas-mas-importantes-de-hoy-2ago/">
+                            <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto44.jpg" class="contenedor11" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-md-9">
+                        <a href="https://runrun.es/noticias/385846/las-noticias-economicas-mas-importantes-de-hoy-2ago/">
+                            <p class="letra6">las noticias economicas mas importantes de hoy #2Ago</p>
+                        </a>
+                    </div>
+                        </div>
+            <br>
+                        <div class="row">
+                        <div class="col-md-3">
+                            <a href="https://runrun.es/noticias/385840/video-diputado-juan-andres-mejia-reaparecio-en-argentina-tras-casi-3-meses-en-situacion-de-resguardo/">
+                                <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto45.jpg" class="contenedor11" alt="...">
+                            </a>
+                        </div>
+                        <div class="col-md-9">
+                            <a href="https://runrun.es/noticias/385840/video-diputado-juan-andres-mejia-reaparecio-en-argentina-tras-casi-3-meses-en-situacion-de-resguardo/">
+                                <p class="letra6">[VIDEO] Diputado Juan Andres Mejia reaparecio en Argentina tras casi 3 meses "en situacion de resguardo"</p>
+                            </a>
+                        </div>
+                        </div>
+                    </div>    
+                    <div class="col-md-4">
+            <br><br>
+                        <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto46.jpg" class="contenedor22" alt="...">    
+                    </div>
+                    <div class="col-md-4">
+            <br><br>
+                        <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\foto47.jpg" class="contenedor23" alt="...">      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+      
+    
+
+        
+          
+       
+        
+<!--------parte 10--------------------------------------------------------------------------------------------->     
+        <footer>
+        <div class="contenedor24">
+            <div class="">          
+                <ul class="list-group list-group-horizontal pie">
+                    <li class="list-group pie1"> <a target="_blank" href="https://runrun.es/nosotros/"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\contacto.jpg" alt="" class="pie"> </a>  </li>
+                    <li class="list-group pie2"> <a target="_blank" href="https://runrun.es/nosotros/" class="letra7">Nosotros</a> </li>
+                    <li class="list-group pie3"> <a target="_blank" href="https://runrun.es/contacto/"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\telefono.jpg" alt=""> </a>  </li>
+                    <li class="list-group pie2"> <a  target="_blank"href="https://runrun.es/contacto/" class="letra7">Contactos</a>  </li>
+                    <li class="list-group pie4"> <a target="_blank" href="https://www.facebook.com/Runrunes"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\facebook.jpg" alt=""> </a>  </li>
+                    <li class="list-group pie5"> <a target="_blank" href="https://twitter.com/runrunesweb"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\tweeter.jpg" alt=""> </a> </li>
+                    <li class="list-group pie5"> <a target="_blank" href="https://www.instagram.com/runrunestv/?hl=es"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\instagram.jpg" alt=""> </a> </li>
+                    <li class="list-group pie5"> <a target="_blank" href="https://www.youtube.com/user/RunrunEstudio"> <img src="C:\Users\ricardo\Documents\programar\bootstrap\rurrun\youtube.jpg" alt=""> </a> </li>
+                    <li class="list-group pie6"> Manapro Consultores  </li>          
+                </ul>                
+            </div>
+        </div>
+        </footer>
+
+   
+    </div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
